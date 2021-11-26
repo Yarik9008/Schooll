@@ -1,4 +1,4 @@
-path1 = 'schooll/mass/data/76.3.txt'  # путь до первого файла
+path1 = 'mass/data/92.2.txt'  # путь до первого файла
 
 fil = open(path1, 'r')
 mass = fil.readlines()
@@ -10,3 +10,9 @@ mass2 = list(filter(lambda x: x % 2 == 0, ful))
 
 print(len(mass))
 print(len(mass2))
+
+
+# 13 12 
+# 6 9 
+
+# правильно 

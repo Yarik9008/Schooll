@@ -1,4 +1,4 @@
-path1 = 'schooll/mass/data/85.3.txt'  # путь до первого файла
+path1 = 'mass/data/85.1.txt'  # путь до первого файла
 
 fil = open(path1, 'r')
 mass = fil.readlines()
