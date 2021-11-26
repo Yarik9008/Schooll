@@ -11,4 +11,4 @@ mass3 = ful[2:]
 
 data = list(zip(mass1,mass2, mass3))
 
-masss = list(filter(lamb))
+masss = list(filter(lambda x: ))

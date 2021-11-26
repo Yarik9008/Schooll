@@ -9,5 +9,7 @@ mass = list(filter(lambda x: int(str(x)[-2]) <=4 and int(str(x)[-3]) <= 7 and in
 print(len(mass))
 print(min(mass))
 
-#502
-#1305
+# 502
+# 1305
+
+# правильно 

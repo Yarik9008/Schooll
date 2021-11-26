@@ -9,5 +9,7 @@ mass = list(filter(lambda x: (int(str(x)[-1]) + int(str(x)[-1]) <= 15) and x % 3
 print(min(mass))
 print(sum(mass))
 
-#1063
-#3858954
+# 1063
+# 3858954
+
+# 

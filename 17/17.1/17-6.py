@@ -1,4 +1,4 @@
-path1 = 'schooll/17/17_файлы/17-5.txt'  # путь до первого файла
+path1 = '17/17.1/data/17-5.txt'  # путь до первого файла
 
 fil = open(path1, 'r')
 mass = fil.readlines()
@@ -19,3 +19,5 @@ print(max(otv))
 
 # 38
 # 163
+
+# правильно 

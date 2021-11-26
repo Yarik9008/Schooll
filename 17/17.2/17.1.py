@@ -22,7 +22,8 @@ for i in mass:
 print(len(otv))
 print(min(massiv))
 
-'''
-2510
-19632
-'''
+
+# 2510
+# 19632
+
+#  правильно 

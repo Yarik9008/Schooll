@@ -1,4 +1,4 @@
-path1 = '17/17.2/17-1.txt'  # путь до первого файла
+path1 = '17/17.2/data/17-1.txt'  # путь до первого файла
 
 fil = open(path1, 'r')
 mass = fil.readlines()
@@ -21,4 +21,9 @@ for i in mass:
 
 print(len(otv))
 print(max(massiv))
+
+# 275
+# 9972
+
+# правильно 
 
