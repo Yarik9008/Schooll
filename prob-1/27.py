@@ -8,9 +8,9 @@ for i in mass:
     s += i
     if i % 2 == 0:
         k += 1
-        if k % 10 == 0:
-            summass.append(s)
-            s = 0
+    if k % 10 == 0:
+        summass.append(s)
+        s = 0
 
 
 print(max(summass))
