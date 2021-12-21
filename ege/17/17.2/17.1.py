@@ -20,7 +20,6 @@ for i in mass:
     massiv.append(i[1])
 
 print(len(otv))
-print(min(massiv))
 
 
 # 2510
