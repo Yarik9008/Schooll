@@ -1,3 +1,7 @@
+num = 364
+mass = []
+
+
 def convert(num, base):
     newNum = ''
     while num > 0:
@@ -5,14 +9,12 @@ def convert(num, base):
         num //= base
     return newNum
 
-baze_num = 8
-mass = []
 
-for i in range(4,9):
-    a = (88 + 2*8**i)*8**i + 88 + 8**8
-    mass.append(sum([int(s) for s in str(convert(a,baze_num))]))
-
+for i in range(2, 11):
+    number = convert(num,i)
+    if len(set(str(number))) == 1:
+        mass.append((i,number))
 
 print(mass)
 
-# 11 
+# 12 
