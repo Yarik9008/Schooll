@@ -1,1 +1,0 @@
-print(len(str(oct(1834))))
